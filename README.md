@@ -7,6 +7,7 @@ Obraz Dockera został stworzony na bazie najnowszego Ubuntu z zainstalowanym ser
 
 ## Uruchomienie
 docker build -t web100 . 
+
 docker run -d -p 8080:80 web100
 
 ## Modyfikacje w Dockerfile
