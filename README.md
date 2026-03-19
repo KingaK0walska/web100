@@ -10,6 +10,9 @@ docker build -t web100 .
 
 docker run -d -p 8080:80 web100
 
+Strona dostępna pod:
+http://localhost:8080
+
 ## Modyfikacje w Dockerfile
 Dockerfile został zoptymalizowany poprzez połączenie aktualizacji systemu, instalacji Apache i połączenie poleceń w jednej komendzie RUN, co zmniejsza liczbę warstw i rozmiar obrazu. Apache uruchamiany jest w trybie foreground (apachectl -D FOREGROUND), co pozwala na prawidłowe działanie serwera w kontenerze.
 
