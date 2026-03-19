@@ -18,5 +18,7 @@ Dockerfile został zoptymalizowany poprzez połączenie aktualizacji systemu, in
 
 ## Warstwy obrazu
 Sprawdzono przy użyciu polecenia docker history:
+
 -11 wpisów 
+
 -3 warstwy fizuczne (RUN, COPY, ADD)
